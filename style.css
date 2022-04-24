@@ -1,0 +1,176 @@
+.container {
+	padding-right: 100px;
+	padding-left: 100px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.grid {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.grid-item--1 {
+	flex: 1;
+}
+
+.grid-item--2 {
+	flex: 2;
+}
+
+.grid-item--3 {
+	flex: 3;
+}
+
+.grid-item--4 {
+	flex: 4;
+}
+
+.grid-item--8 {
+	flex: 8;
+}
+
+.nav {
+	position: fixed;
+	padding: 10px 10px 10px 10px;
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+}
+
+.nav__link {
+	padding: 10px 10px 10px 10px;
+	display: block;
+	width: 25px;
+	height: 25px;
+	color: black;
+}
+
+.header {
+    background-color: white;
+    width:inherit;
+	padding: 10px;
+	padding-left: 20px;
+    top:0;
+}
+
+.header--fixed {
+	position: fixed;
+}
+
+.header__title {
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.feed {
+	border-right: 1px solid rgb(234, 231, 231);
+	border-left: 1px solid rgb(234, 231, 231);
+	height: 100vh;
+    width:100%;
+}
+
+.recommendations {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.searchbar {
+	
+	border: 0 solid;
+	border-radius: 30px;
+	width: 100%;
+	height: 33px;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	padding-left: 20px;
+}
+
+.searchbar--primary{
+    background-color: rgb(239, 243, 244);
+}
+
+.searchbar__icon {
+	width: 16px;
+	height: auto;
+}
+
+.searchbar__input {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+	padding-left: 20px;
+	font-size: 14px;
+	background:none;
+	border: 0;
+}
+
+.tweet-bar {
+	height: 135px;
+	border-bottom: 1px solid rgb(234, 231, 231);
+	
+	padding: 10px;
+	padding-left: 20px;
+	display: flex;
+}
+
+.tweet-bar__profile-icon {
+	width: 55px;
+	height: 55px;
+	border: 0;
+	border-radius: 100%;
+}
+
+.tweet-bar-input {
+	width: 100%;
+}
+
+.tweet-bar-input__text {
+	
+	width: 100%;
+	border: 0;
+	padding-left: 15px;
+	font-size: 19px;
+	font-weight: 400;
+	height: 90px;
+}
+
+.action-bar {
+	padding-left: 10px;
+	padding-right: 20px;
+	display: flex;
+	width: 100%;
+}
+
+.action-bar__icon {
+	padding-right: 25px;
+	width: 18px;
+	height: 18px;
+}
+
+.action-bar__tweet-button {
+	font-weight: 700;
+	width: 85px;
+	height: 35px;
+	
+	border-radius: 30px;
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+.button--primary{
+    background-color: rgb(29, 155, 240);
+	color: white;
+	border: 0 solid rgb(29, 155, 240);
+}
+.button--secondary{
+    color: rgb(29, 155, 240);
+    background-color: white;
+    border: 0 solid white;
+
+}
