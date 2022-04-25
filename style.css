@@ -1,14 +1,22 @@
+:root{
+	font-size:62.5%;
+}
+
 .container {
-	padding-right: 100px;
-	padding-left: 100px;
+	width:100%;
+	display:flex;
+	justify-content: center;
+	
 	font-family: Helvetica, Arial, sans-serif;
 }
 
 
 .grid {
+	width:80rem;
+		
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .grid-item--1 {
@@ -32,28 +40,31 @@
 }
 
 .nav {
-	position: fixed;
-	padding: 10px 10px 10px 10px;
+	
+	padding: 0.5rem 2rem 2rem 2rem;
+	box-sizing: border-box;
 }
 
 .logo {
-	width: 40px;
-	height: 40px;
+	width: 4rem;
+	height: 4rem;
 }
 
 .nav__link {
-	padding: 10px 10px 10px 10px;
+	padding:1rem 1rem 1rem 1rem ;
 	display: block;
-	width: 25px;
-	height: 25px;
+	width:4.5rem;
+	height: 4.5rem;
 	color: black;
+	box-sizing: border-box;
 }
 
 .header {
     background-color: white;
     width:inherit;
-	padding: 10px;
-	padding-left: 20px;
+	padding: 1rem;
+	padding-left: 2rem;
+	box-sizing: border-box;
     top:0;
 }
 
@@ -62,7 +73,7 @@
 }
 
 .header__title {
-	font-size: 19px;
+	font-size: 1.9rem;
 	font-weight: 600;
 }
 
@@ -71,11 +82,12 @@
 	border-left: 1px solid rgb(234, 231, 231);
 	height: 100vh;
     width:100%;
+	margin-top:2em;
 }
 
 .recommendations {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
 }
 
 .searchbar {
@@ -83,11 +95,11 @@
 	border: 0 solid;
 	border-radius: 30px;
 	width: 100%;
-	height: 33px;
+	height:3.3rem;
 	display: flex;
 	align-items: center;
-	padding: 5px;
-	padding-left: 20px;
+	padding: 0.5rem;
+	padding-left: 2rem;
 }
 
 .searchbar--primary{
@@ -95,32 +107,32 @@
 }
 
 .searchbar__icon {
-	width: 16px;
+	width: 1.6rem;
 	height: auto;
 }
 
 .searchbar__input {
 	width: 100%;
 	height: 100%;
-	padding: 5px;
-	padding-left: 20px;
-	font-size: 14px;
+	padding: 0.5rem;
+	padding-left: 2rem;
+	font-size: 1.4rem;
 	background:none;
 	border: 0;
 }
 
 .tweet-bar {
-	height: 135px;
+	height: 13.5rem;
 	border-bottom: 1px solid rgb(234, 231, 231);
 	
-	padding: 10px;
-	padding-left: 20px;
+	padding: 1rem;
+	padding-left: 2rem;
 	display: flex;
 }
 
 .tweet-bar__profile-icon {
-	width: 55px;
-	height: 55px;
+	width: 5.5rem;
+	height: 5.5rem;
 	border: 0;
 	border-radius: 100%;
 }
@@ -134,9 +146,9 @@
 	width: 100%;
 	border: 0;
 	padding-left: 15px;
-	font-size: 19px;
+	font-size: 1.9rem;
 	font-weight: 400;
-	height: 90px;
+	height: 9rem;
 }
 
 .action-bar {
@@ -147,20 +159,20 @@
 }
 
 .action-bar__icon {
-	padding-right: 25px;
-	width: 18px;
-	height: 18px;
+	padding-right: 2.5rem;
+	width: 1.8rem;
+	height: 1.8rem;
 }
 
 .action-bar__tweet-button {
 	font-weight: 700;
-	width: 85px;
-	height: 35px;
-	
+	width: 8.5rem;
+	height: 3.5rem;
+	font-size:1.5rem;
 	border-radius: 30px;
-	margin-top: -10px;
+	margin-top: -1rem;
 	margin-left: auto;
-	margin-right: 10px;
+	margin-right: 1rem;
 }
 
 .button--primary{
